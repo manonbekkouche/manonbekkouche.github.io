@@ -1,0 +1,593 @@
+/*BODY*/
+body{
+    background-color: #FDF8F5;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; 
+}
+/*HEADER*/
+header{
+    background-color: #F2DFBE;
+    width: 100%;
+}
+/*partie recherche du header*/
+#haut{ 
+    height: 100px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    margin-left: 100px;  
+    margin-top: 20px;
+}
+#icones{
+    display: inline;
+    margin-top: 37px;
+    margin-right: 110px;
+}
+#icones li{
+    display: inline-block;
+}
+#icones li img{
+    color: green;
+    height: 20px;
+    width: 20px;
+}
+#rechercher{
+    padding-top: 37px;
+}
+#rechercher input{
+    height: 30px;
+    width: 190px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+#rechercher button{
+    height: 32px;
+    width: 110px;
+    border: none;
+    background-color: #EDBE86;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+/*partie menu du header*/
+#bas{
+    background-color: #EDBE86;
+    height: 30px; 
+}
+#bas nav ul{
+    margin: 0%;
+}
+#home{
+    width: 12px;
+    height: 12px;
+}
+#bas nav ul li{
+    display: inline-block;
+    margin-right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#bas nav ul li img{
+    margin-top: 9px; 
+}
+/*MAIN*/
+main{
+    background-color: #FDF8F5;
+}
+/*section fiche*/
+#ariane{
+    font-size: 0.6em;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 41px;
+}
+#ariane span{
+    border-bottom: 0.001rem solid #c2c1b6;
+    padding-bottom: 2px;
+}
+#fiche{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+main section img{
+    height: 350px;
+    width: 350px;
+    margin-right: 3rem;
+}
+main section article{
+    display: inline-block;
+    position: absolute;
+    font-size: 0.9em;
+}
+main section article p{
+    font-size: 0.9em;
+    display: inline-block;
+    margin-bottom: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 225px;
+}
+main section article h2{
+    margin-bottom: 1px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+main section article div{
+    display: inline-block;
+    width: 500px;
+}
+main section article div div{
+    display: inline-block;
+    width: 100px;
+}
+main section article div div input{
+    height: 25px;
+    width: 27px;
+    padding-left: 0.4rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 3px;
+}
+#button{
+    background-color: #EDBE86;
+    border: none;
+    height: 30.65px;
+    width: 120px;
+    position: absolute;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+}
+.prix{
+    font-size: 1.3em;
+    color:#FF0000; 
+    margin-top: 0px;
+    margin-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*section*/
+#utilisation{
+    background-color:white;
+    padding-top: 30px;
+}
+#utilisation div{
+    vertical-align: top;
+    margin-left: 55px;
+}
+#utilisation div div{
+    display: inline-block;
+    margin-left: 0px;
+}
+#infos div div{
+    position: relative;
+}
+#infos div div img{
+    position: absolute;
+    top: 12px;
+    right: -49px;
+}
+#moins{
+    top: 21px;
+    margin-top: 0px;
+    width: 9px;
+    height: 4px;
+    right: -43px;
+}
+#onglet1{
+    display: block;
+    background-color: #B1F4D5;
+    width: 260px;
+    height: 25px;
+    font-size: 0.9em;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 6px;
+}
+#onglet2{
+    display: block;
+    border: 0.15em solid #FCF0C8;
+    width: 260px;
+    height: 22px;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+#onglet3{
+    display: block;
+    border: 0.15em solid #FBDDD7;
+    width: 260px;
+    height: 22px;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+.photos{
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin-left: 3.5rem;
+}
+.photos div h3{
+    border-bottom: .08em solid #B1F4D5;
+    padding-bottom: 15px;
+}
+.photos div p{
+    font-size: 0.9em;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.photos img{
+    display: block;
+    width: 100%;
+}
+/*section avis*/
+#avis{
+    background-color: #F2DFBE;
+    margin-left: 360px;
+    margin-right: 360px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.nom{
+    margin-bottom: 6px;
+}
+#titreavis{
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+.commentaire{
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+}
+.date{
+    font-size: 0.6em;
+    font-family: 'Montserrat', sans-serif;
+}
+#nbavis{
+    display: inline-block;
+    margin-top: 5px;
+}
+.titresection{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+/*section recettes*/
+#recettes{
+    padding-left:  15%;
+    padding-right: 15%;
+}
+#recettes div{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+    margin-left: 75px;
+}
+#feuille1{
+    z-index: 0;
+    width: 201px !important;
+    position: absolute;
+    top: 0px;
+    height: auto !important;
+    left: -245px;
+}
+#feuille2{
+    z-index: 0;
+    width: 201px !important;
+    position: absolute;
+    height: auto !important;
+    bottom: -73px;
+    left: -238px;
+}
+#feuille3{
+    z-index: 0;
+    width: 201px !important;
+    position: absolute;
+    height: auto !important;
+    top: 601px;
+    right: -177px;
+}
+#recettes div div{
+    background-color: #FBDDD7;
+    width: 25%;
+    height: 510px;
+    margin-bottom: 100px;
+    position: relative;
+    margin-left: 25px;
+}
+#recettes div div p{
+    font-size: 0.9em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+#recettes div div h3{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+#recettes img{
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+/*section personnalisation*/
+#personnalisation{
+    display: inline-block;
+    background-color: #F2DFBE;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+    padding-bottom: 70px;
+}
+#personnalisation div{
+    display: inline-block;
+    width: 11%;
+    margin-left: 12.5rem;
+    margin-right: -8rem;
+}
+.round{
+    display: block;
+    width: 100%;
+    height: 160px;
+    border-radius: 48%;
+}
+.perso{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+.etape{
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.dot {
+    height: 158px;
+    width: 11%;
+    background-color: #FCF0C8;
+    border-radius: 50%;
+    position: absolute;
+    top: 210px;
+}
+#button2{
+    position: absolute;
+    top: 66px;
+    right: 26px;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+}
+.dot button{
+    height: 32px;
+    width: 110px;
+    border: none;
+    background-color: #EDBE86;
+}
+.plus{
+    height: 20px;
+    width: 20px;
+}
+.plus2{
+    position: absolute;
+    margin-top: 140px;
+    height: 20px;
+    width: 20px;
+    margin-left: 153px;
+}
+/*section actifs*/
+#actifs{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+#actifs div {
+    background-color: #FBDDD7;
+    width: 20%;
+    height: 550px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+#actifs div p{
+    font-size: 0.9em;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#actifs div h3{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#actifs img{
+    display: block;
+    width: 100%;
+    height: 290px;
+}
+#actifs button{
+    display: block;
+    background-color: #EDBE86;
+    border: none;
+    height: 25.65px;
+    width: 160px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+}
+#infos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#infos div p{
+    font-size: 0.9em;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.titreinfos{
+    display: block;
+    padding-bottom: 2px;
+    border-bottom: .08em solid black;
+}
+.leaves{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-right: 0px;
+}
+/*section produits*/
+#produits{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background-color: #FCF0C8;
+}
+#produits div{
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 50px;
+    position: relative;
+    margin-left: 5.5rem;
+}
+#produits div p{
+    font-size: 1.3em;
+    color:#FF0000; 
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: -355px;
+    font-family: 'Montserrat', sans-serif;
+}
+#produits img{
+    display: inline-block;
+    vertical-align: top;
+}
+#produits div input{
+    height: 25px;
+    width: 27px;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 78px;
+    left: -97px;
+    padding-left: 0.4rem;
+}
+#produits div button{
+    background-color: #EDBE86;
+    border: none;
+    font-size:0.6em;
+    height: 30.65px;
+    width: 120px;
+    position: absolute;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    top: 78px;
+    left: -56px;
+}
+#produits div div{
+    margin-left: 0px;
+}
+#produits div div h3{
+    margin-bottom: 5px;
+    width: 260px;
+    margin-bottom: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+.assoc{
+    height: 250px;
+}
+/*FOOTER*/
+footer{
+    background-color: #F2DFBE; 
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+/*logo footer*/
+#logo2 img{
+    padding-bottom: 10px;
+    border-bottom: 0.01em solid black;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*liste de liens*/
+footer ul li{
+    display: inline-block;
+    margin-right: 0.4rem;
+    margin-left: 10rem;
+    font-size: 70%;
+    vertical-align: top;
+}
+footer ul li p{
+    font-family: 'Montserrat', sans-serif;
+}
+footer ul li h3{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+.titres{
+    font-size: 1em;
+}
+#certifier img{
+    height: 45px;
+    width: 40px;
+}
+#sociaux{
+    height: 20px;
+    width: 20px;
+    display: inline;
+}
+#sociaux img{
+    height: 20px;
+    width: 20px;
+}
+/*section newsletter*/
+#newsletter{
+    background-color: white;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding-top: 1%;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#newsletter input{
+    height: 30px;
+    width: 190px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+#newsletter button{
+    height: 32px;
+    width: 110px;
+    border: none;
+    background-color: #EDBE86;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+#newsletter img{
+    height: 20px;
+    width: 20px;
+}
+#newsletter p{
+    font-size: 70%;
+}
+#newsletter h3{
+    margin-bottom: 0px;
+}

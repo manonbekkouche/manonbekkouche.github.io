@@ -1,0 +1,71 @@
+@media screen and (max-width: 1345px){
+/*redimension de la fenetre en dessous 1345px*/    
+    #infos{
+        margin-top: 70px;
+    }
+    #avis{
+        width: 650px;
+    }
+    #recettes div div h3{
+        font-size: 1em;
+    }
+    #recettes div div p{
+        font-size: 0.7em;
+    }
+    #actifs div h3{
+        font-size: 1em;
+    }
+    #actifs div p{
+        font-size: 0.7em;
+    }
+    .leaves{
+        width: 12px;
+    }
+    #produits div input{
+        left: -81px;   
+    }
+    #produits div button{
+        left: -40px;
+    }
+    #produits div p{
+        right: -371px;
+    }
+    .round{
+        width: 97%;
+        height: 134px;
+    }
+    .dot {
+        height: 129px;
+        width: 9.6%;
+        top: 215px;
+    }   
+    .plus2{
+        margin-top: 127px;
+        margin-left: -6px;
+    }
+    #button2{
+        top: 52px;
+        right: 9px;
+    }
+    #personnalisation{
+        padding-left: 101px;
+    }
+    .perso{
+        font-size: 0.9em;
+    }
+    #personnalisation div{
+        margin-left: 3rem;
+    }
+    #actifs div {
+        margin-left: 120px;
+    }
+    #produits div {
+        margin-left: 4.1rem;
+    }
+    #newsletter button{
+        height: 35px;
+    }
+    footer ul li{
+        margin-left: 6rem;
+    }
+}

@@ -1,0 +1,212 @@
+/* Page Home */
+
+header {
+    background-image: linear-gradient(white, #F7F9F8);
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 19%;
+}
+
+body {
+    background-color: #F7F9F8;
+    height: 225vh;
+    font-family: 'rubik', sans-serif;
+}
+
+
+/* Contenu de la page */
+
+.section {
+    margin-left: 4.4rem;
+}
+
+.contenu-top {
+    position: relative;
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 100vw;
+}
+
+.block-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    position: relative;
+}
+
+.categories {
+    background-color: white;
+    margin-left: 1%;
+    border-color: black;
+    box-shadow: 0px 8px 16px -11px;
+    border-radius: 12%;
+    margin-bottom: 1rem;
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.categories p {
+    font-size: 209%;
+    font: weight 500;
+    color: B4B4B4;
+
+}
+
+.nom-categ {
+    color: #10C680;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.display-categorie {
+    margin-top: 36%;
+}
+
+.categorie-ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 1800px;
+}
+
+.title-home {
+    font-size: 4rem;
+    font: weight 500;
+    margin-left: 9%;
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 0;
+}
+
+.voir-plus-button {
+    border: 2px solid #C4C4C4;
+    color: #C4C4C4;
+    border-radius: 0.4rem;
+    height: 5%;
+    width: 14%;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: center;
+    padding: 0.2vh;
+    margin-right: 1vh;
+    margin-bottom: 2vh;
+    position: relative;
+    background-color: #F7F9F8;
+    padding: 0.3vh;
+}
+
+
+.voir-plus {
+    font-size: 2rem;
+    margin: 0;
+    font-family: rubik;
+}
+
+a:link {
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+
+.img-categorie {
+    margin-bottom: 7%;
+    width: 27%;
+    fill: #10C680;
+    margin-top: 15%;
+}
+
+.nombre-livre {
+    margin-top: 0rem;
+    color: #B4B4B4;
+}
+
+.covers {
+    width: 32vw;
+    margin-left: 2rem;
+    height: 26vh;
+    border-radius: 5%;
+}
+
+
+.carte-blanche-complete {
+    position: relative;
+    margin-top: 7%;
+}
+
+.blanc {
+    background-color: white;
+    box-shadow: 3px 5px 18px 5px #C4C4C4;
+    position: absolute;
+    justify-content: left;
+    width: 100%;
+    height: 104%;
+    margin-left: 2%;
+    border-radius: 3rem 0rem 0rem 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    position: relative;
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 100vw;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 3rem;
+}
+
+.fiches {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fiches a {
+    background-color: white;
+    border: white;
+}
+
+.titre-livre {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+
+.auteur {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+#titre-interet {
+    margin-top: 3rem;
+}

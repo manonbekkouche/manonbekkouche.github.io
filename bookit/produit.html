@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="src/produit.css">
+        <title>Fiche Produit : Fahrenheit 451</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+
+    </head>
+</head>
+
+<body class="body-produit">
+    <div class="visuel">
+        <div class="dispo">
+            <div class="green-round-dispo">
+                <div class="green-round"></div>
+                <p>Disponible</p>
+            </div>
+            <div>
+                <div class="close-button">
+                    <a href="index.html"><img src="images/close.png"></a>
+                </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="book-cover">
+            <img src="images/books/fahrenheit.PNG" class="fahrenheit-cover">
+            <img src="images/next.png" class="next-book">
+        </div>
+        <div class="rounds">
+            <div class="black-round"></div>
+            <div class="grey-round"></div>
+        </div>
+    </div>
+    <div class="share-button">
+        <div class="black-round-share">
+            <img src="images/icone/share.png">
+        </div>
+    </div>
+    <div class="fiche-texte">
+        <div class="contenu-fiche">
+            <h2>Fahrenheit 451 de Ray Bradbury</h2>
+            <p class="poster">Posté le 8 Janvier par Jean Louis</p>
+            <div class="onglet">
+                <div class="onglet-description">
+                    <button class="btn-next onglet-ouvert" data-intent="0">Description</button>
+                    <div id="circle" class="green-circle-mini"></div>
+                </div>
+                <button class="btn-next onglet-fermer" data-intent="1">Détails</button>
+                <button class="btn-next onglet-fermer" data-intent="2">Avis</button>
+
+            </div>
+
+            <div class="steps">
+                <!-- onglet description -->
+                <div class="description-body step step-active" data-step="0">
+                    <div>
+                    </div>
+                    <p class="description">
+                        Fahrenheit 451 is a dystopian novel by American writer Ray Bradbury, first published in
+                        1953.
+                        Often
+                        regarded as one of his best works, the novel presents a future American society where books
+                        are
+                        outlawed
+                        and "firemen" burn any that are found.
+                    </p>
+                    <div>
+                        <h3 class="titre-3">Livres Similaires</h3>
+                        <div class="container">
+                            <div class="contenu">
+                                <div class="fiches">
+                                    <img src="images/books/psycho.PNG" class="covers-small">
+                                </div>
+                                <div class="fiches">
+                                    <img src="images/books/flammarion.PNG" class="covers-small">
+                                </div>
+                                <div class="fiches">
+                                    <img src="images/books/potter.PNG" class="covers-small">
+                                </div>
+                                <div class="fiches">
+                                    <img src="images/books/alice.PNG" class="covers-small">
+                                </div>
+                                <div class="fiches">
+                                    <img src="images/books/gatsby.PNG" class="covers-small">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- onglet détail -->
+
+                <div class="details step" data-step="1">
+                    <div class="lignes">
+                        <p class="details-cat">Langue</p>
+                        <div class="line-separation"></div>
+                        <p class="details-info">Anglais</p>
+                    </div>
+                    <div class="lignes">
+                        <p class="details-cat">Format</p>
+                        <div class="line-separation"></div>
+                        <p class="details-info">Papier</p>
+                    </div>
+                    <div class="lignes">
+                        <p class="details-cat">Année de Publication</p>
+                        <div class="line-separation"></div>
+                        <p class="details-info">1953</p>
+                    </div>
+                    <div class="lignes">
+                        <p class="details-cat">Etat du Livre</p>
+                        <div class="line-separation"></div>
+                        <p class="details-info">Etat acceptable</p>
+                    </div>
+                    <div class="lignes">
+                        <p class="details-cat">Temp d'emprunt</p>
+                        <div class="line-separation"></div>
+                        <p class="details-info">2 semaines</p>
+                    </div>
+
+                    <h3 class="titre-3">Livres Similaires</h3>
+                    <div class="container">
+                        <div class="contenu">
+                            <div class="fiches">
+                                <img src="images/books/psycho.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/flammarion.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/potter.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/alice.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/gatsby.PNG" class="covers-small">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- onglet avis -->
+
+            <div class="avis step" data-step="2">
+                <p class="titre-3">Avis des internautes</p>
+                <div class="details-notes">
+                    <p class="note-totale">4/5</p>
+                    <div class="nombre-user">
+                        <div class="note">
+                            <img src="images/star-yellow.png" class="etoile">
+                            <img src="images/star-yellow.png" class="etoile">
+                            <img src="images/star-yellow.png" class="etoile">
+                            <img src="images/star-yellow.png" class="etoile">
+                            <img src="images/star-yellow.png" class="etoile">
+                            <img src="images/star-black.png" class="etoile">
+                        </div>
+                        <p class="nombre-avis">20 avis</p>
+                    </div>
+                    <p class="voir-plus-seul">voir plus</p>
+                </div>
+                <div class="container-avis">
+                    <div class="slider-avis">
+                        <div>
+                            <div class="contenu-avis">
+                                <div class="fiche-avis">
+                                    <img src="images/damon.PNG" class="photo-profil">
+                                    <div class="details-avis">
+                                        <div class="user">
+                                            <p class="prenom"> Paul Millard</p>
+                                            <div class="note">
+                                                <img src="images/star-yellow.png" class="etoile">
+                                                <img src="images/star-yellow.png" class="etoile">
+                                                <img src="images/star-yellow.png" class="etoile">
+                                                <img src="images/star-yellow.png" class="etoile">
+                                                <img src="images/star-yellow.png" class="etoile">
+                                                <img src="images/star-black.png" class="etoile">
+                                            </div>
+                                        </div>
+                                        <p class="commentaire">Absolument incroyable comme histoire, tout le
+                                            monde
+                                            devrait
+                                            le
+                                            lire.
+                                            Juste un peu décu de la
+                                            fin.</p>
+                                        <p class="jours">3 jours</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="deuxieme-avis">
+                            <div container-avis>
+                                <div class="contenu-avis">
+                                    <div class="fiche-avis">
+                                        <img src="images/damon.PNG" class="photo-profil">
+                                        <div class="details-avis">
+                                            <div class="user">
+                                                <p class="prenom">Solène Lu</p>
+                                                <div class="note">
+                                                    <img src="images/star-yellow.png" class="etoile">
+                                                    <img src="images/star-yellow.png" class="etoile">
+                                                    <img src="images/star-yellow.png" class="etoile">
+                                                    <img src="images/star-yellow.png" class="etoile">
+                                                    <img src="images/star-black.png" class="etoile">
+                                                    <img src="images/star-black.png" class="etoile">
+                                                </div>
+                                            </div>
+                                            <p class="commentaire">Pas mal, c’est facile à lire mais pas mon
+                                                livre
+                                                préféré.
+                                            </p>
+                                            <p class="jours">9 jours</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <h3 class="titre-3">Livres Similaires</h3>
+                    <div class="container">
+                        <div class="contenu">
+                            <div class="fiches">
+                                <img src="images/books/psycho.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/flammarion.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/potter.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/alice.PNG" class="covers-small">
+                            </div>
+                            <div class="fiches">
+                                <img src="images/books/gatsby.PNG" class="covers-small">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-produit">
+        <div class="bouton-emprunter">
+            <p>Emprunter</p>
+        </div>
+    </div>
+    <div>
+    </div>
+
+
+    <script src="src/index.js"></script>
+</body>
+
+
+</html>

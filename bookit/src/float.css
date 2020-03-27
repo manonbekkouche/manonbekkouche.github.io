@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 5vh;
+    width: 1000px;
+}
+
+.float {
+    background-image: linear-gradient(#05AA63, #64EDB2);
+    background-color: #10C680;
+    width: 850px;
+    border-radius: 93px;
+    display: flex;
+}
+
+.home-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.ellipse {
+    position: relative;
+}
+
+.big {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.small-icones {
+    display: flex;
+    width: 650px;
+    justify-content: space-around;
+}
+
+.icones {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}

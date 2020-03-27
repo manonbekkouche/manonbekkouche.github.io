@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aroma Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/media.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <section id="haut">
+            <article id="logo">
+                <img src="./img/logo/logo.svg" width="150" height="50">
+            </article>
+            <article id="rechercher">
+                <input type="text" name="Rechercher" value=" Entrez le nom d'un produit">
+                <button>Rechercher</button>
+            </article>
+            <ul id="icones">
+                <li><img src="./img/icones/iconesvec/png/user.png"></li>
+                <li><img src="./img/icones/iconesvec/svg/shoppingcart.svg"> <span>0€</span></li>
+            </ul>
+        </section>
+        <section id="bas">
+            <nav>
+                <ul>
+                    <li><img id="home" src="./img/icones/iconesvec/png/home.png" width="20" height="20"></li>
+                    <li><a>Produits</a></li>
+                    <li><a>Guides</a></li>
+                    <li><a>Recettes</a></li>
+                    <li><a>Ateliers</a></li>
+                    <li><a>Boutiques</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <p id="ariane">Home Page > Liste Produit > <span>Fiche Produit: Huile de Soin Cheveux</span></p>
+        <section id="fiche">
+            <img src="./img/imgproduit.jpeg">
+            <article>
+                <h2>Huile de Soin Cheveux</h2>
+                <div>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p>plus d'avis utilisateurs</p>
+                </div>
+                <p>Synergie de 8 huiles végétales BIO réputées pour leurs vertus
+                    merveilleuses sur les cheveux, cette huile de soin cheveux BIO
+                    s'utilise un bain d'huile, en friction ou en soin sans rinçage sur
+                    les pointes.<br>
+
+                    <br>-Ricin, Coco, Amla, Avocat, Olive, Brocoli, Jojoba et Moutarde<br>
+                    <br>-Fortifie, nourrit, répare, fait briller et discipline les cheveux<br>
+                    <br>-100% d'origine naturelle et certifié BIO<br>
+                    <br>-Produit non testé sur les animaux<br>
+                    <br>-Fabrication Française<br>
+                </p>
+                <div>
+                    <p class="prix">7.90€</p>
+                    <div>
+                        <input type="number" name="quantity" value="1" min="1" max="10">
+                        <button id="button">Ajouter au Panier</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="infos">
+            <div>
+                <div>
+                    <p class="titreinfos">INGREDIENTS</p>
+                    <img id="moins" src="./img/moins.png">
+                </div>
+                <p>-Ricinus communis seed oil* (huile végétale de Ricin BIO)<br>
+                    -Olea europaea fruit oil* (huile végétale d'Olive BIO)<br>
+                    -Cocos nucifera oil* (huile végétale de Coco BIO)<br>
+                    -Persea gratissima oil* (huile végétale d'Avocat BIO)<br>
+                    -Brassica nigra seed oil* (huile végétale de Moutarde BIO)<br>
+                    -Simmondsia chinensis seed oil* (huile végétale de Jojoba BIO)<br>
+                    -Brassica oleracea italica seed oil* (huile végétale de Brocoli BIO)<br>
+                    -Emblica officinalis fruit powder* (poudre d'Amla BIO)<br>
+                    -Tocopherol (vitamine E)<br>
+                    -Helianthus annuus seed oil (huile végétale de Tournesol, huile support du tocophérol).<br>
+
+                    <br>Certification EcoCert<br>
+                    * Ingrédients issus de l'Agriculture Biologique.
+                    100% du total des ingrédients sont d'origine naturelle.
+                    99.8% du total des ingrédients sont issus de l'Agriculture Biologique.
+                    COSMOS ORGANIC certifié par Ecocert Greenlife selon le référentiel COSMOS disponible sur
+                    http://www.ecocert.com/cosmos
+                </p>
+            </div>
+            <div>
+                <div>
+                    <p class="titreinfos">UTILISATIONS</p>
+                    <img class="plus" src="./img/plus.png">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p class="titreinfos">CONSERVATION</p>
+                    <img class="plus" src="./img/plus.png">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p class="titreinfos">EN SAVOIR PLUS SUR LA MARQUE</p>
+                    <img class="plus" src="./img/plus.png">
+                </div>
+            </div>
+        </section>
+        <section id="utilisation">
+            <div>
+                <div>
+                    <p id="onglet1">Friction du Cuir Chevelu</p>
+                </div>
+                <div>
+                    <p id="onglet2" i>Bain d'Huile sur les Longueurs</p>
+                </div>
+                <div>
+                    <p id="onglet3">Huile Soin Réparateur de Pointes</p>
+                </div>
+            </div>
+            <div class="photos">
+                <img src="./img/utilisation/utilisationun.PNG">
+                <div>
+                    <h3>1. Appliquez</h3>
+                    <p>Appliquez l'huile de soin
+                        cheveux BIO sur le cuir chevelu
+                        raie par raie.
+                    </p>
+                </div>
+            </div>
+            <div class="photos">
+                <img src="./img/utilisation/utilisationdeux.jpg">
+                <div>
+                    <h3>2. Massez</h3>
+
+                    <p>Massez le cuir chevelu en réalisant des mouvements circulaires lents et profonds.
+                        Laissez poser 10 à 15 minutes.
+                    </p>
+                </div>
+            </div>
+            <div class="photos">
+                <img src="./img/utilisation/utilisationtrois.jpg">
+                <div>
+                    <h3>3. Lavez</h3>
+                    <p>Lavez vos cheveux avec un shampooing doux comme notre base shampooing BIO.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="avis">
+            <div>
+                <h2 id="titreavis">Avis Utilisateurs</h2>
+                <div>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p id="nbavis">1,530</p>
+                </div>
+            </div>
+            <div>
+                <h5 class="nom">Michelle Blé</h5>
+                <div>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p class="commentaire">Super Produit! J'avais des cheveux très secs et après l'avoir
+                        utiliser pendant environ 3 mois, mes cheveux sont maintenant
+                        rayonnant.
+                    </p>
+                    <p class="date">10 Septembre 2018</p>
+                </div>
+            </div>
+            <div>
+                <h5 class="nom">Manon Saulais</h5>
+                <div>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p class="commentaire">Je vous le conseille fortement</p>
+                    <p class="date">04 Janvier 2018</p>
+                </div>
+            </div>
+            <div>
+                <h5 class="nom">Jean Lefévre</h5>
+                <div>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p class="commentaire">Je vais racheter ce produit car ma femme l'a absolument adorée.</p>
+                    <p class="date">19 Mai 2018</p>
+                </div>
+            </div>
+        </section>
+        <section id="recettes">
+            <h3 class="titresection">Recettes Personnalisés</h3>
+            <div>
+                <img id="feuille1" src="./img/leafa.svg">
+                <div>
+                    <img src="./img/Recettes/chute.jpg">
+                    <h3>Elixir BIO Pousse de cheveux</h3>
+                    <p><br>Huile de soin cheveux BIO : 50 ml<br>
+                        <br>Huile essentielle de Pamplemousse sans furocoumarines BIO : 11 gouttes<br>
+                        <br>Huile essentielle de Cèdre de l'Atlas BIO : 5 gouttes
+                    </p>
+                </div>
+                <div>
+                    <img src="./img/Recettes/nutritif.jpg">
+                    <h3>Bain d'huile cheveux secs
+                        et dévitalisés
+                    </h3>
+                    <p><br>Huile de soin cheveux BIO : 90 ml<br>
+                        <br>Actif Squalane végétal : 6 ml<br>
+                        <br>Actif Concentré de Phytostérols : 3 pelles 2 ml<br>
+                        <br>Huile essentielle Lemongrass BIO : 20 gouttes<br>
+                    </p>
+                </div>
+                <div>
+                    <img src="./img/Recettes/lissant.jpg">
+                    <h3>Soin bienfaisant pour cheveux indisciplinés
+                    </h3>
+                    <p><br>Huile de soin cheveux BIO : 50 ml<br>
+                        <br>Actif Concentré de Phytostérols : 3 cuillères 0,5 ml<br>
+                        <br>Actif Phyto'liss : 1 cuillère 0,5 ml<br>
+                        <br>Fragrance cosmétique Monoï : 16 gouttes<br>
+                    </p>
+                </div>
+                <img id="feuille2" src="./img/leafa.svg">
+                <div>
+                    <img src="./img/Recettes/vigueur.jpg">
+                    <h3>Friction Force & Vigueur
+                    </h3>
+                    <p><br>Huile de soin cheveux BIO : 100 ml<br>
+                        <br>Huile essentielle d’Ylang-ylang complète BIO : 10 gouttes<br>
+                        <br>Huile essentielle Sauge sclarée BIO : 20 gouttes<br>
+                    </p>
+                </div>
+                <div>
+                    <img src="./img/Recettes/abimees.jpg">
+                    <h3>Soin longueurs aux huiles précieuses
+                    </h3>
+                    <p><br>Huile de soin cheveux BIO : 50 ml<br>
+                        <br>Actif Phyto'liss : 1 cuillère 0,5 ml<br>
+                        <br>Huile essentielle Citron sans furocoumarines BIO : 13 gouttes<br>
+                        <br>Huile essentielle Géranium Egypte BIO : 3 gouttes<br>
+                    </p>
+                </div>
+                <img id="feuille3" src="./img/leafa.svg">
+            </div>
+        </section>
+        <section id="personnalisation">
+            <h3 class="titresection">A VOUS DE JOUER!<br>
+                Créez Votre Propre Soin Personnalisé!
+            </h3>
+            <div>
+                <h6 class="etape">Etape 1</h6>
+                <img class="round" src="./img/Personnalisation/huileessentielle.jpg">
+                <p class="perso">Huiles Essentielles</p>
+            </div>
+            <img class="plus2" src="./img/plus.png">
+            <div>
+                <h6 class="etape">Etape 2</h6>
+                <img class="round" src="./img/Personnalisation/actifs.jpg">
+                <p class="perso">Actifs</p>
+            </div>
+            <img class="plus2" src="./img/plus.png">
+            <div>
+                <h6 class="etape">Etape 3</h6>
+                <img class="round" src="./img/Personnalisation/fragrance.jpg">
+                <p class="perso">Fragrances</p>
+            </div>
+            <img class="plus2" src="./img/plus.png">
+            <div>
+                <h6 class="etape">Etape 4</h6>
+                <img class="round" src="./img/Personnalisation/flacons.jpg">
+                <p class="perso">Flaconnages</p>
+            </div>
+            <img class="plus2" src="./img/egal.png">
+            <div>
+                <span class="dot"><button id="button2">Ajouter au Panier</button></span>
+            </div>
+        </section>
+        <section id="actifs">
+            <h3 class="titresection">Agents Actifs</h3>
+            <div>
+                <img src="./img/actifs/macerat.png">
+                <h3>Macérat Huileux d'Alma et Huile de Ricin</h3>
+                <p><br>-tonifie<br>
+                    <br>-régénère<br>
+                    <br>-et fortifie les cheveux
+                </p>
+            </div>
+            <div>
+                <img src="./img/actifs/coco.jpg">
+                <h3>Huile Végétale de Coco</h3>
+                <p><br>-protectrices<br>
+                    <br>-adoucissantes<br>
+                    <br>-nutritives<br>
+                    <br>-apporte de la brillance
+                </p>
+            </div>
+            <div>
+                <img src="./img/actifs/olive.jpg">
+                <h3>Huile Végétale d'Olive</h3>
+                <p><br>-protège<br>
+                    <br>-fortifie<br>
+                    <br>-apporte de la brillance
+                </p>
+            </div>
+            <button>voir plus d'agents actifs</button>
+        </section>
+        <section id="produits">
+            <h3 class="titresection">Produits Associés</h3>
+            <div>
+                <img class="assoc" src="./img/pompesavon.jpg">
+                <div>
+                    <h3>Pompe Savon Translucide</h3>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p>0.70€</p>
+                </div>
+                <div>
+                    <input type="number" name="quantity" value="1" min="1" max="10">
+                    <button>Ajouter au Panier</button>
+                </div>
+            </div>
+            <div>
+                <img class="assoc" src="./img/capsulep.png">
+                <div>
+                    <h3>Capsule Service</h3>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p>0.25€</p>
+                </div>
+                <div>
+                    <input type="number" name="quantity" value="1" min="1" max="10">
+                    <button>Ajouter au Panier</button>
+                </div>
+            </div>
+            <div>
+                <img class="assoc" src="./img/baseshampoing.jpg">
+                <div>
+                    <h3>Shampooing Neutre</h3>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p>4.90€</p>
+                </div>
+                <div>
+                    <input type="number" name="quantity" value="1" min="1" max="10">
+                    <button>Ajouter au Panier</button>
+                </div>
+            </div>
+            <div>
+                <img class="assoc" src="./img/actifs/capsuler.png">
+                <div>
+                    <h3>Pompe Crème Neutre</h3>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p>0.75€</p>
+                </div>
+                <div>
+                    <input type="number" name="quantity" value="1" min="1" max="10">
+                    <button>Ajouter au Panier</button>
+                </div>
+            </div>
+            <div>
+                <img class="assoc" src="./img/masquec.png">
+                <div>
+                    <h3>Masque Capillaire Neutre</h3>
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/greenleaf.svg">
+                    <img class="leaves" src="./img/icones/blackleaf.svg">
+                    <p>5.50€</p>
+                </div>
+                <div>
+                    <input type="number" name="quantity" value="1" min="1" max="10">
+                    <button>Ajouter au Panier</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="logo2">
+            <div>
+                <img src="./img/logo/logo.svg" width="150" height="50">
+            </div>
+        </section>
+        <ul>
+            <li>
+                <h3>Notre Identité</h3>
+                <p>Pourquoi Aroma Zone?<br>
+                    <br>Notre Histoire<br>
+                    <br>La Satisfaction de Nos Clients<br>
+                    <br>Mentions Légales<br>
+                    <br>FAQ
+                </p>
+            </li>
+            <li>
+                <h3>Nos Engagements</h3>
+                <p>Qualités et Responsabitlités<br>
+                    <br>Des Prix Justes<br>
+                    <br>Satisfait ou Remboursé<br>
+                    <br>Paiment Sécurisé<br>
+                    <br>Conditions Générales de Vente<br>
+                </p>
+            </li>
+            <li>
+                <h3>Nos Services</h3>
+                <p>Documentations<br>
+                    <br>Service Client<br>
+                    <br>Programme Fidelité<br>
+                    <br>Parrainez vos Proches<br>
+                    <br>Commandes "Coup de Coeur"<br>
+                    <br>Télécharger notre Catalogue<br>
+                </p>
+            </li>
+            <li>
+                <div id="certifier">
+                    <h3>Cértifié</h3>
+                    <img src="./img/Bio.png">
+                </div>
+                <div id="sociaux">
+                    <h3>Plus d'Infos</h3>
+                    <img src="./img/icones/iconesvec/svg/instagram-logo.svg">
+                    <img src="./img/icones/iconesvec/svg/facebook-logo-key.svg">
+                    <img src="./img/icones/iconesvec/svg/video-player-play-button.svg">
+                    <img src="./img/icones/iconesvec/svg/pinterest-logo.svg">
+                </div>
+            </li>
+        </ul>
+        <section id="newsletter">
+            <img src="./img/icones/iconesvec/svg/email-envelope.svg">
+            <h3>Inscrivez-Vous!</h3>
+            <p>Recevez la Newsletter avec toutes nos Promos et Recettes</p>
+            <input type="text" value=" Entrez votre adresse e-mail">
+            <button>S'INSCRIRE</button>
+        </section>
+    </footer>
+</body>
+
+</html>
