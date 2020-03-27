@@ -1,0 +1,542 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 171%;
+    background: white;
+    color: black;
+    cursor: none;
+}
+
+
+
+/* HERO */
+
+.hero {
+    height: 526px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero nav ul {
+    list-style-type: none;
+}
+
+.hero-background {
+    background: #FCFCFC
+}
+
+.main-title {
+    font-size: 5.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 10rem;
+    width: 830px;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 8PX 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    transform-origin: center 50% 0px;
+    transform: matrix3d(1, 0, 0, 0, 0, 0.999829, 0.0184745, 0, 0, -0.0184745, 0.999829, 0, 0, -1.8525, 0, 1);
+    opacity: 1;
+}
+
+.main-title:hover {
+    text-shadow: 2px 0 0 #000, 3px 0 0 #000, 15PX 5px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+        1px -1px 0 #000, -1px 1px 0 #000;
+    font-family: "Open Sans";
+    transition-duration: 0.3s;
+}
+
+.main-titles h2 {
+    margin: 0;
+}
+
+.second-title {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin-bottom: 34px;
+    font-weight: 500;
+}
+
+/* INTRO : TITLES */
+
+.intro-information {
+    z-index: 1;
+    margin-left: 6vw;
+}
+
+.title {
+    margin-bottom: 41px;
+}
+
+.section-portfolio {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* BACKGROUND RIGHT : BLEU */
+
+.background-right {
+    background-color: #BFFBFF;
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.background-right p {
+    transform: rotate(90deg);
+    font-size: 4rem;
+    color: white;
+    font-family: Open sans-serif;
+    font-weight: 900;
+}
+
+.ecole {
+    padding-right: 10px;
+}
+
+/* BAR END : SOCIALS */
+
+.hero-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    height: 70px;
+    padding: 0;
+}
+
+.social-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.social-logo:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition-duration: 0.3s;
+    background-color: white;
+    fill: white;
+}
+
+.link-social {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-left: 25px;
+}
+
+.container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #000000;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
+    }
+}
+
+/* MAIN */
+
+main {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* CONTENU PAGE */
+
+.titles-sections {
+    color: #1C2029;
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+}
+
+.titles-contenu {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 90px;
+}
+
+.number-title {
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    width: 50%;
+    font-size: 15rem;
+    color: white;
+    text-shadow: 10px -5px black, -3px 1px black;
+}
+
+/* A PROPOS */
+
+.section-center {
+    display: flex;
+    justify-content: center;
+}
+
+.content-one {
+    margin-bottom: 40px;
+}
+
+.content-one li {
+    font-size: 1.2rem;
+}
+
+.contenant-one {
+    border-top: 2px dotted;
+}
+
+.contenant {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px dotted;
+}
+
+.contenu {
+    width: 50%;
+}
+
+.bouton-cv {
+    padding: 14px 14px 14px 14px;
+    border-radius: 2px;
+    width: 100px;
+    text-decoration: none;
+    background: black;
+    color: white !important;
+}
+
+.bouton-cv:hover {
+    background: transparent;
+    border: 1px solid black;
+    color: black !important;
+}
+
+.bouton-cv:visited {
+    color: black;
+}
+
+
+.technique {
+    text-align: end;
+}
+
+.number-title p {
+    color: black;
+    opacity: 0.4;
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 13px;
+}
+
+.fonctionnelles li {
+    list-style-type: circle;
+}
+
+.techniques {
+    list-style-type: circle;
+    direction: rtl;
+}
+
+/* PROJETS */
+
+.lien-projet {
+    text-decoration: none;
+}
+
+.lien-projet:link {
+    color: #1C2029;
+}
+
+.lien-projet:hover {
+    color: #1C2029;
+}
+
+.lien-projet:active {
+    color: #1C2029;
+}
+
+.lien-projet:visited {
+    color: #1C2029;
+}
+
+.ul {
+    list-style-type: circle;
+}
+
+.fiche-projet {
+    background-color: white;
+    width: 359px;
+    height: 382px;
+    margin-bottom: 100px;
+    position: relative;
+    border: 4px solid black;
+}
+
+.fiche-projet:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1), 16PX 16px 0px 0 rgba(0, 0, 0, 1);
+}
+
+.fiche-projet img {
+    display: block;
+    width: 100%;
+    height: 275px;
+    border-radius: 2PX 2px 0 0;
+}
+
+.fiche-projet h2 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.information p {
+    margin: 0;
+}
+
+.date-projet {
+    color: #bababa;
+}
+
+.projet-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* CATEGORIES */
+
+.categorie {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 4px dotted black;
+}
+
+.categorie:hover {
+    border-style: solid;
+}
+
+.img-categorie {
+    margin-bottom: 7%;
+    width: 27%;
+    margin-top: 15%;
+}
+
+.nom-categ {
+    font-weight: 600;
+}
+
+.nom-categ:visited {
+    color: black;
+}
+
+.section-creation {
+    display: flex;
+    justify-content: space-evenly;
+    height: 242px;
+    padding: 80px;
+}
+
+.section-creation a {
+    text-decoration: none;
+}
+
+.section-creation a:visited {
+    color: black;
+}
+
+/* FOOTER */
+
+.copyright-white {
+    color: white;
+}
+
+/* RESPONSIVE : FORMAT MOBILE */
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+
+    .main-title {
+        font-size: 2.3rem;
+        width: 10vw;
+        text-shadow: none;
+        color: black;
+    }
+
+    .background-right {
+        display: none;
+    }
+
+    .hero-end {
+        display: block;
+    }
+
+    .social-logo {
+        width: 25px;
+        height: 25px;
+        margin-right: 45px;
+    }
+
+    .link-social {
+        width: 18vw;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .ecole {
+        padding-right: 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .titles-sections {
+        font-size: 3rem;
+    }
+
+    .titles-contenu {
+        font-size: 1.5rem;
+        width: 71vw;
+        text-align: center;
+    }
+
+    .number-title {
+        font-size: 5rem;
+        text-shadow: 3px -2px black, -3px 1px black;
+    }
+
+    .contenant-one {
+        height: 678px;
+        width: 87vw;
+    }
+
+    .techniques {
+        direction: ltr;
+    }
+
+    .contenant {
+        display: block;
+    }
+
+    .fiche-projet {
+        width: auto;
+        height: auto;
+    }
+
+    .fiche-projet img {
+        height: auto;
+    }
+
+    .categorie {
+        margin-top: 23px;
+    }
+
+    .section-creation {
+        display: block;
+        margin-bottom: 300px;
+    }
+
+    .section-creation {
+        padding: 0;
+    }
+
+    .content-one {
+        width: 80vw;
+        margin-bottom: 13px;
+    }
+
+    .bouton-cv {
+        font-size: 0.6rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}

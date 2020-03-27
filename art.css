@@ -1,0 +1,158 @@
+/* PAGE PHOTOSHOP */
+
+body {
+    cursor: none;
+}
+
+.centered {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.black {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.digital-art {
+    height: 20px;
+    widows: 14px;
+}
+
+.photoshop {
+    height: 370px;
+    width: 350px;
+    border-radius: 187px;
+    margin: 15px;
+    opacity: 0.8;
+}
+
+.photoshop:hover {
+    height: 370px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 15px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.illustrator {
+    height: 300px;
+    width: 500px;
+    border-radius: 220px;
+    opacity: 0.6;
+    margin: 15px;
+}
+
+.illustrator:hover {
+    height: 300px;
+    width: 500px;
+    border-radius: 8px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.essay {
+    height: 400px;
+    width: 550px;
+    background-color: #47B1C7;
+    margin-left: 20px;
+}
+
+.copyright-white {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.button-proposition {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    font-family: Montserrat;
+}
+
+.button-suivant a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.button-suivant a :hover {
+    color: white;
+}
+
+
+.button-suivant a:visited {
+    color: white;
+}
+
+.button-suivant a:hover {
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    transition-duration: 0.4s;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+
+    h1 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .illustrator {
+        height: 18vh;
+        width: auto;
+        border-radius: 3%;
+        margin: 15px;
+    }
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navigation-titles {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .photoshop {
+        height: 248px;
+        width: 79vw;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .button-suivant a {
+        font-size: 1rem;
+    }
+
+    .centered {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+}

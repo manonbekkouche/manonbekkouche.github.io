@@ -1,0 +1,48 @@
+/* CURSOR */
+
+.cursor {
+    position: absolute;
+    background-color: white;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    z-index: 10000;
+    transform: scale(1);
+    user-select: none;
+    pointer-events: none;
+    transition: 0.3s ease-in-out transform, 0.2s ease-in-out opacity;
+}
+
+.cursor.active {
+    opacity: 0.5;
+    transform: scale(0);
+}
+
+.cursor.hovered {
+    opacity: 0.08;
+}
+
+.cursor-follower {
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    z-index: 10000;
+    transform: translatex(5px, 5px);
+    user-select: none;
+    pointer-events: none;
+    transition: 0.4s ease-in-out transform, 0.2s ease-in-out opacity;
+}
+
+.cursor-follower.active {
+    transform: scale(3);
+    border: none;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.cursor-follower.hovered {
+    opacity: 0.08;
+}
