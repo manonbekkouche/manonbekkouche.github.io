@@ -23,7 +23,7 @@
 .navigation {
     display: flex;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .navigation ul li {
@@ -39,6 +39,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
     color: white;
+    margin-left: 60px;
 }
 
 .navigation-titles:hover {
