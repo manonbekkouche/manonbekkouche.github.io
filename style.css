@@ -40,13 +40,6 @@ body {
     opacity: 1;
 }
 
-.main-title:hover {
-    text-shadow: 2px 0 0 #000, 3px 0 0 #000, 15PX 5px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
-        1px -1px 0 #000, -1px 1px 0 #000;
-    font-family: "Open Sans";
-    transition-duration: 0.3s;
-}
-
 .main-titles h2 {
     margin: 0;
 }
@@ -349,6 +342,7 @@ main {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1), 16PX 16px 0px 0 rgba(0, 0, 0, 1);
+    transition-duration: 0.3s;
 }
 
 .fiche-projet img {
