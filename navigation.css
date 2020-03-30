@@ -22,7 +22,6 @@
 .navigation {
     display: flex;
     list-style: none;
-    margin-right: 60px;
 }
 
 .navigation ul li {
@@ -38,7 +37,6 @@
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
-    margin-left: 60px;
 }
 
 .link-animation {
