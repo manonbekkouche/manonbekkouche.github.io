@@ -42,10 +42,34 @@
     margin-left: 60px;
 }
 
-.navigation-titles:hover {
-    background-color: white;
-    color: black;
 
+.link-animation {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white
+}
+
+.link-wrapper {
+    position: relative;
+    display: block;
+}
+
+.hover-3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s;
+}
+
+.hover-3:hover:after {
+    transform: scaleX(1);
 }
 
 .hero nav ul a {
