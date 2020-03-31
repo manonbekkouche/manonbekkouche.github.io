@@ -88,8 +88,6 @@ footer p {
     font-weight: 500;
 }
 
-
-
 @media screen and (max-width: 600px) and (min-width: 300px) {
     .space {
         margin-left: 36px;
