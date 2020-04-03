@@ -39,7 +39,6 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
     color: white;
-    margin-left: 60px;
 }
 
 
@@ -47,7 +46,8 @@
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: white
+    color: white;
+    height: 5vh;
 }
 
 .link-wrapper {
