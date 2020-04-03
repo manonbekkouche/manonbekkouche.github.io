@@ -39,8 +39,8 @@
 .cursor-follower.active {
     transform: scale(3);
     border: none;
-    background-color: gray;
-    opacity: 0.1;
+    background-color: #F3D2C9;
+    opacity: 0.4;
 }
 
 .cursor-follower.hovered {
