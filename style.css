@@ -25,7 +25,7 @@ body {
 }
 
 .hero-background {
-    background: #FCFCFC
+    background: white
 }
 
 .main-title {
@@ -34,7 +34,7 @@ body {
     font-size: 10rem;
     width: 830px;
     color: white;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 8PX 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 2PX 1px 0 black, 8PX 2px 0 #F3D2C9, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
     transform-origin: center 50% 0px;
     transform: matrix3d(1, 0, 0, 0, 0, 0.999829, 0.0184745, 0, 0, -0.0184745, 0.999829, 0, 0, -1.8525, 0, 1);
     opacity: 1;
@@ -72,7 +72,7 @@ body {
 /* BACKGROUND RIGHT : BLEU */
 
 .background-right {
-    background-color: #5ab6bc;
+    background-color: #F3D2C9;
     width: 50vw;
     height: 100%;
     display: flex;
@@ -230,7 +230,7 @@ main {
     font-family: 'Playfair Display', serif;
     width: 50%;
     font-size: 15rem;
-    color: white;
+    color: #F3D2C9;
     text-shadow: 10px -5px black, -3px 1px black;
 }
 
@@ -268,14 +268,14 @@ main {
     border-radius: 2px;
     width: 100px;
     text-decoration: none;
-    background: black;
-    color: white !important;
-}
-
-.bouton-cv:hover {
     background: transparent;
     border: 1px solid black;
     color: black !important;
+}
+
+.bouton-cv:hover {
+    background: black;
+    color: white !important;
 }
 
 .bouton-cv:visited {
@@ -343,7 +343,7 @@ main {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1), 16PX 16px 0px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 4px 6px 0 #F3D2C9, 16PX 16px 0px 0 #F3D2C9;
     transition-duration: 0.3s;
 }
 
@@ -397,6 +397,7 @@ main {
 
 .categorie:hover {
     border-style: solid;
+    background-color: #F3D2C9;
 }
 
 .img-categorie {
