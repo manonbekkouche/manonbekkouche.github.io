@@ -337,6 +337,7 @@ main {
     margin-bottom: 100px;
     position: relative;
     border: 4px solid black;
+    border-radius: 20px;
 }
 
 .fiche-projet:hover {
@@ -351,7 +352,7 @@ main {
     display: block;
     width: 100%;
     height: 275px;
-    border-radius: 2PX 2px 0 0;
+    border-radius: 20PX 20px 0 0;
 }
 
 .fiche-projet h2 {
@@ -385,6 +386,10 @@ main {
 
 /* CATEGORIES */
 
+.nombre-livre{
+    color: #000;
+}
+
 .categorie {
     width: 250px;
     height: 250px;
@@ -392,12 +397,14 @@ main {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    border: 4px dotted black;
+    border: 4px solid black;
+    border-radius: 20px;
 }
 
 .categorie:hover {
     border-style: solid;
     background-color: #F3D2C9;
+    border-radius: 20px;
 }
 
 .img-categorie {
@@ -408,6 +415,7 @@ main {
 
 .nom-categ {
     font-weight: 600;
+    color: #000;
 }
 
 .nom-categ:visited {
